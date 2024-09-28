@@ -136,7 +136,7 @@
             responseHeader.style.display = "none"; // Hide response header initially
 
             try {
-                const response = await fetch("http://localhost:8000/upload-video/", {
+                const response = await fetch("https://envisionapi.onrender.com/upload-video/", {
                     method: "POST",
                     body: formData,
                 });
